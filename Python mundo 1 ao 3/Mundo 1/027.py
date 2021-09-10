@@ -1,0 +1,5 @@
+n = str(input('Qual o seu nome? ')).strip()
+nome: list[str] = n.split()
+print('Olá {}'.format(n))
+print('Seu nome é {}'.format(nome[0]))
+print('Seu sobrenome é {}'.format(nome[len(nome) - 1]))

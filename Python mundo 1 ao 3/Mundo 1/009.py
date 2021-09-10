@@ -1,0 +1,2 @@
+n = int(input('Digite um número inteiro e veja sua tabuáda: '))
+print('Vejamos então a tabuada do {}:\n1X{} = {}\n2X{} = {}\n3X{} = {}\n4X{} = {}\n5X{} = {}\n6X{} = {}\n7X{} = {}\n8X{} = {}\n9X{} = {}\n10X{} = {}'.format(n, n, n * 1, n, n * 2, n, n * 3, n, n * 4, n, n * 5, n, n * 6, n, n * 7, n, n * 8, n, n * 9, n, n * 10))
